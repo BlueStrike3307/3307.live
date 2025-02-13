@@ -1,5 +1,5 @@
 services:
-  ganymede:
+  3307live:
     container_name: 3307live
     restart: unless-stopped
      env_file: stack.env
