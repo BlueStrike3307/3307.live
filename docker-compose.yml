@@ -2,7 +2,7 @@ services:
   3307live:
     container_name: 3307live
     restart: unless-stopped
-     env_file: stack.env
+    env_file: stack.env
     volumes:
       - /path/to/vod/storage:/data/videos # update VIDEOS_DIR env var
       - ./temp:/data/temp # update TEMP_DIR env var
